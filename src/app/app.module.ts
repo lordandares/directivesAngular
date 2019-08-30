@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { StructuralTestDirective } from './directives/structural-test.directive';
+import { CustomepipePipe } from './pipes/customepipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HighlightDirective,
-    StructuralTestDirective
+    StructuralTestDirective,
+    CustomepipePipe
   ],
   imports: [
     BrowserModule,
